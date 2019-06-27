@@ -1,0 +1,16 @@
+{
+  "p-index": {
+    "head": {
+      "title": "Home"
+    },
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true,
+        "nice-select": true
+      }
+    }
+  }
+}
