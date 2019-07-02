@@ -3,8 +3,228 @@
     "head": {
       "title": "Home"
     },
+    "org-header": true,
+    "org-header-banner": {
+      "mol-header-banner-item": {
+        "banner-items": [
+          {
+            "title": "Creative <span>Design Agency</span>",
+            "text": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor."
+          },
+          {
+            "title": "Creative <span>Design Agency</span>",
+            "text": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor."
+          },
+          {
+            "title": "Creative <span>Design Agency</span>",
+            "text": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor."
+          }
+        ]
+      }
+    },
+    "org-choose-section": {
+      "mol-choose-item": {
+        "few-items": [
+          {
+            "img": "assets/img/icon-1.png",
+            "alt": "icon-11",
+            "title": "Your title",
+            "description": "Duis bibendum diam non erat facilaisis en ter tincidunt. Duis",
+            "hover-title": "See More",
+            "hover-icon-1": "assets/img/hover-icon-1.png",
+            "alt-1": "hover-icon-1",
+            "hover-icon-2": "assets/img/hover-icon-2.png",
+            "alt-2": "hover-icon-2"
+          },
+          {
+            "img": "assets/img/icon-2.png",
+            "alt": "icon-2",
+            "title": "Your title",
+            "description": "Duis bibendum diam non erat facilaisis en ter tincidunt. Duis",
+            "hover-title": "See More",
+            "hover-icon-1": "assets/img/hover-icon-1.png",
+            "alt-1": "hover-icon-1",
+            "hover-icon-2": "assets/img/hover-icon-2.png",
+            "alt-2": "hover-icon-2"
+          },
+          {
+            "img": "assets/img/icon-3.png",
+            "alt": "icon-3",
+            "title": "Your title",
+            "description": "Duis bibendum diam non erat facilaisis en ter tincidunt. Duis",
+            "hover-title": "See More",
+            "hover-icon-1": "assets/img/hover-icon-1.png",
+            "alt-1": "hover-icon-1",
+            "hover-icon-2": "assets/img/hover-icon-2.png",
+            "alt-2": "hover-icon-2"
+          },
+          {
+            "img": "assets/img/icon-4.png",
+            "alt": "icon-4",
+            "title": "Your title",
+            "description": "Duis bibendum diam non erat facilaisis en ter tincidunt. Duis",
+            "hover-title": "See More",
+            "hover-icon-1": "assets/img/hover-icon-1.png",
+            "alt-1": "hover-icon-1",
+            "hover-icon-2": "assets/img/hover-icon-2.png",
+            "alt-2": "hover-icon-2"
+          },
+          {
+            "img": "assets/img/icon-5.png",
+            "alt": "icon-5",
+            "title": "Your title",
+            "description": "Duis bibendum diam non erat facilaisis en ter tincidunt. Duis",
+            "hover-title": "See More",
+            "hover-icon-1": "assets/img/hover-icon-1.png",
+            "alt-1": "hover-icon-1",
+            "hover-icon-2": "assets/img/hover-icon-2.png",
+            "alt-2": "hover-icon-2"
+          }
+        ]
+      },
+      "mol-section-choose-title": {
+        "title": "Why <span>Choose Us</span>",
+        "descrioption": "Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. Nullam at scelerisque tellus mattis volutpat rhoncus,"
+      }
+    },
+    "org-products": {
+      "mol-products-title": {
+        "bg-image": "assets/img/product-bg.png",
+        "title": "Our <span>products</span>"
+      },
+      "mol-products-items": {
+        "products-items": [
+          {
+            "item-img": "assets/img/product-item-1.png",
+            "alt": "product-1",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-2.png",
+            "alt": "product-2",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-3.png",
+            "alt": "product-3",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-4.png",
+            "alt": "product-4",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-5.png",
+            "alt": "product-5",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-6.png",
+            "alt": "product-6",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-1.png",
+            "alt": "product-1",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-2.png",
+            "alt": "product-2",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-3.png",
+            "alt": "product-3",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-4.png",
+            "alt": "product-4",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-5.png",
+            "alt": "product-5",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          },
+          {
+            "item-img": "assets/img/product-item-6.png",
+            "alt": "product-6",
+            "title": "Title",
+            "link-text": "Best Product",
+            "description": "Duis bibendum diam non erat facilaisis en ter"
+          }
+        ]
+      }
+    },
+    "org-about-us": true,
+    "org-get-in": {
+      "mol-get-in-content": {
+        "checkbox-label": "I like you company",
+        "sybmit-btn": "Send",
+        "form-place": "<p>69/A, Some Street Name Your City, code 01234 Country Name</p>",
+        "number-1": "+880 123 456 78 98",
+        "number-2": "+860 987 648 74 95",
+        "mail-1": "company@mail.com",
+        "mail-2": "sales@mail.com"
+      },
+      "mol-get-in-title":{
+        "title":"Get in <span>touch</span>",
+        "description":"Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. Nullam at scelerisque tellus mattis volutpat rhoncus, "
+      }
+    },
+    "org-footer": {
+      "mol-footer-copyright": {
+        "text": "Copyright © Company. All Rights Reserved 2016"
+      },
+      "mol-footer-list": {
+        "list": [
+          {
+            "li": "assets/img/facebook.png",
+            "alt": "socil"
+          },
+          {
+            "li": "assets/img/google.png",
+            "alt": "socil"
+          },
+          {
+            "li": "assets/img/twitter.png",
+            "alt": "socil"
+          },
+          {
+            "li": "assets/img/dribble.png",
+            "alt": "socil"
+          }
+        ]
+      }
+    },
     "foot": {
       "vendor-scripts": {
+        "map": true,
         "jquery": true,
         "slick-slider": true,
         "aos": true,

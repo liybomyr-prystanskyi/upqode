@@ -1,16 +1,66 @@
 /* Variables */
-$fontPath: '../fonts/';
+$fontPath: '../fonts';
 
-/* Raleway-Light */
+
+/* lato-regular */
 @font-face {
-  font-family: 'raleway-light';
+  font-family: 'lato-regular';
   font-style: normal;
-  font-weight: 100;
-  src: url('#{$fontPath}/Raleway-Light.eot'); /* IE9 Compat Modes */
-  src: local('raleway-Light'), local('raleway-Light'),
-       url('#{$fontPath}/Raleway-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('#{$fontPath}/Raleway-Light.woff') format('woff'), /* Modern Browsers */
-       url('#{$fontPath}/Raleway-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+  font-weight: 400;
+  src: url('#{$fontPath}/Lato-Regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato-Regular'), local('Lato-Regular'),
+       url('#{$fontPath}/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Lato-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
 }
 
+
+/* lato-bold */
+@font-face {
+  font-family: 'lato-bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$fontPath}/Lato-Bold.eot'); /* IE9 Compat Modes */
+  src: local('Lato-Bold'), local('Lato-Bold'),
+       url('#{$fontPath}/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Lato-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* myriad pro regular */
+@font-face {
+  font-family: 'myriad-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$fontPath}/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
+  src: local('MyriadPro-Regular'), local('MyriadPro-Regular'),
+       url('#{$fontPath}/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/MyriadPro-Regular.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/MyriadPro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* Lato-Light */
+@font-face {
+  font-family: 'lato-light';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$fontPath}/Lato-Light.eot'); /* IE9 Compat Modes */
+  src: local('Lato-Light'), local('Lato-Light'),
+       url('#{$fontPath}/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Lato-Light.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Lato-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+/* Lato-Heavy */
+@font-face {
+  font-family: 'lato-heavy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$fontPath}/Lato-Heavy.eot'); /* IE9 Compat Modes */
+  src: local('Lato-Heavy'), local('Lato-Heavy'),
+       url('#{$fontPath}/Lato-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Lato-Heavy.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Lato-Heavy.ttf') format('truetype'), /* Safari, Android, iOS */
+}
 

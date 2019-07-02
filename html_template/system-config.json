@@ -1,3 +1,4 @@
+
 {
   "paths": {
     "src": {
@@ -6,6 +7,7 @@
       "vendorScripts": "src/assets/js/vendors/",
       "js": "src/assets/js/",
       "img": "src/assets/img/",
+      "fonts": "src/assets/fonts/",
       "templates": {
         "molecules": "src/assets/templates/molecules/",
         "organisms": "src/assets/templates/organisms/",

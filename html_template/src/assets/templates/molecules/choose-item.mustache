@@ -1,0 +1,45 @@
+{{#mol-choose-item}}
+
+  {{#few-items}}
+    <div class="col-12 col-md-6 col-lg-2 hover-e">
+      <div class="choose-section__main__content__item">
+
+        {{#img}}
+        <div class="choose-section__main__content__item__image">
+          <img src="{{{img}}}" alt="{{{alt}}}">
+        </div>
+        {{/img}}
+
+        {{#title}}
+          <div class="choose-section__main__content__item__info">
+            <h2>{{{title}}}</h2>
+            <p>{{{description}}}</p>
+          </div>
+        {{/title}}
+        <div class="choose-section__main__content__item__hover">
+          {{#hover-title}}
+            <div class="choose-section__main__content__item__hover__title">
+              <h2>{{{hover-title}}}</h2>
+            </div>
+          {{/hover-title}}
+
+          {{#hover-icon-1}}
+            <div class="choose-section__main__content__item__hover__icons">
+              <div class="choose-section__main__content__item__hover__icons__item">
+                <a href="#">
+                  <img src="{{{hover-icon-1}}}" alt="{{{alt-1}}}">
+                </a>
+              </div>
+              <div class="choose-section__main__content__item__hover__icons__item">
+                <a href="#">
+                  <img src="{{{hover-icon-2}}}" alt="{{{alt-2}}}">
+                </a>
+              </div>
+            </div>
+          {{/hover-icon-1}}
+        </div>
+      </div>
+    </div>
+  {{/few-items}}
+
+{{/mol-choose-item}}

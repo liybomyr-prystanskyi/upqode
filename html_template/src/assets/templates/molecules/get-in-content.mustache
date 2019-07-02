@@ -1,0 +1,52 @@
+{{#mol-get-in-content}}
+  <div class="get-in__form__content">
+    {{#sybmit-btn}}
+      <div class="col-12 col-md-6 col-lg-6">
+        <form action="#">
+          <div class="get-in__form__content__first-line">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+          </div>
+          <textarea name="textarea" id="textarea" placeholder="Message"></textarea>
+          <div class="get-in__form__content__second-line">
+            {{#checkbox-label}}
+              <div>
+                <input type="checkbox" id="squaredFour" name="agree" required />
+                <label for="squaredFour">{{{checkbox-label}}}</label>
+              </div>
+            {{/checkbox-label}}
+            <button type="submit">{{{sybmit-btn}}}</button>
+          </div>
+        </form>
+      </div>
+    {{/sybmit-btn}}
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="get-in__form__content__info">
+        {{#form-place}}
+          <div class="get-in__form__content__info__place">
+            {{{form-place}}}
+          </div>
+        {{/form-place}}
+        {{#number-2}}
+          <div class="get-in__form__content__info__numbers">
+            {{#number-1}}
+              <a href="tel:+8801234567898">{{{number-1}}}</a>
+            {{/number-1}}
+            <a href="tel:+8609876487495">{{{number-2}}}</a>
+          </div>
+        {{/number-2}}
+
+        <div class="get-in__form__content__info__emails">
+          {{#mail-1}}
+            <a href="mailto:{{{mail-1}}}">{{{mail-1}}}</a>
+          {{/mail-1}}
+          {{#mail-2}}
+            <a href="mailto:{{{mail-2}}}">{{{mail-2}}}</a>
+          {{/mail-2}}
+        </div>
+
+      </div>
+    </div>
+  </div>
+{{/mol-get-in-content}}
