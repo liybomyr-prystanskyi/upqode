@@ -1078,7 +1078,12 @@ body {
   .menu-header {
     width: 100%;
   }
-
+  .navigation-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
   .spinner-master * {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -1089,8 +1094,11 @@ body {
     margin: 15px;
     height: 30px;
     width: 30px;
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
     display: block;
+
   }
 
   .spinner-master label {
@@ -1108,7 +1116,7 @@ body {
     height: 4px;
     width: 100%;
     padding: 0;
-    background-color: #007bff;
+    background-color: #009dda;
   }
 
   .spinner-master .diagonal.part-1 {
@@ -1153,9 +1161,6 @@ body {
     font-size: 1.5em;
   }
 
-  a.menu-link:hover {
-    color: #efa666;
-  }
 
   a.menu-link:after {
     content: "\2630";
@@ -1176,7 +1181,8 @@ body {
   .menu-header>ul ul {
     overflow: hidden;
     max-height: 0;
-    background-color: #39484d;
+    background-color: #fff;
+    
   }
 
   .menu-header>li>ul.sub-menu {
@@ -1187,7 +1193,9 @@ body {
   .menu-header.active,
   .menu-header>ul ul.active {
     width: 100%;
-    max-height: 55em;
+    max-height: 55em;  
+      overflow: visible;
+      background-color: #fff !important;
   }
 
   .menu-header ul {
@@ -1226,18 +1234,19 @@ body {
   }
 
   .menu-header ul ul>li a {
-    background-color: #39484d;
+    background-color: #fff;
     padding: 10px 18px 10px 30px;
+    color: #000;
   }
 
   .menu-header ul li a:hover {
-    background: #4b5f65;
-    color: #fff;
+    background: #fff;
+    color: #000;
   }
 
   .menu-header ul li.hover>a {
-    background: #4b5f65;
-    color: #fff;
+    background: #fff;
+    color: #000;
   }
 
   .menu-header ul ul,
@@ -1247,6 +1256,10 @@ body {
     left: auto;
     top: auto;
     border: none;
+    z-index: 100;
+  }
+  .menu-header ul ul>li a:hover {
+    color: #000;
   }
 
   .searchform {
